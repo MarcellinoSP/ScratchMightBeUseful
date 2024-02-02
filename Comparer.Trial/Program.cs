@@ -13,6 +13,8 @@ internal class Program
         {
             Console.WriteLine(f);
         }
+
+        Console.ReadLine();
     }
 
     private class CompareFloor : IComparer<string>
